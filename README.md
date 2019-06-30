@@ -4,11 +4,13 @@ Neural networks are not a new method. The first artificial neural network was de
 
 ## Project Objective:
 
-* The purpose of this project was to build a neural network to predict student attentional state from webcam images. The variables used to build a neural network model are the following:
+The purpose of this project was to build a neural network to predict student attentional state from webcam images. The variables used to build a neural network model are the following:
   * eyes - student has their eyes open (1 = yes, 0 = no)
   * face.forward - student is facing the camera (1 = yes, 0 = no)
   * chin.up - student's chin is raised above 45 degrees (1 = yes, 0 = no)
   * attention - whether the student was paying attention when asked (1 = yes, 0 = no)
+
+Two neural network models were created and their prediction accuracy was evaluated in order to pick the model with the optimal number of hidden layers.  
 
 ## Datasets:
 
