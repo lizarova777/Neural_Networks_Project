@@ -38,11 +38,11 @@ net2 <- neuralnet(attention ~ eyes + face.forward + chin.up, D1, hidden = 2, thr
 
 ## Results:
 
-* The neural network with two hidden layers had a smaller final error rate than a neural network with one hidden layer. However, the overall accuracy for both models is 94%, with the true positive rate of 93.18% and true negative rate of 94.64%. In other words, both models sucessfully predicted whether the students were paying attention 94% of the time. 
+The neural network with two hidden layers had a smaller final error rate than a neural network with one hidden layer. However, the overall accuracy for both models is 94%, with the true positive rate of 93.18% and true negative rate of 94.64%. In other words, both models sucessfully predicted whether the students were paying attention 94% of the time. 
 
 ## Intepretation:
 
-* This model utilizes relevant facial movements recorded on the webcam in order to predict whether student was paying attention in the online discussion. These relevant facial movements are whether the student had their eyes open, whether the student is facing the camera, and whether the student's chin was raised above 45 degrees during the online discussion. Overall, the generated model is 94% accurate in successfully predicting whether the students are paying attention in the online discussion. 
+The neural network model utilizes relevant facial movements recorded on the webcam in order to predict whether student was paying attention in the online discussion. These relevant facial movements are whether the student had their eyes open, whether the student is facing the camera, and whether the student's chin was raised above 45 degrees during the online discussion. Overall, the generated models are 94% accurate in successfully predicting whether the students are paying attention in the online discussion. 
 
 
 
